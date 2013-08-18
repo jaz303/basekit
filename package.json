@@ -1,6 +1,6 @@
 {
   "name": "basekit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Base class with event binding, signal and teardown facilities",
   "main": "index.js",
   "scripts": {
