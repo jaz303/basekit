@@ -18,6 +18,7 @@ var Base = Class.extend(function(sc, sm) {
                 this._teardown.push(function() {
                     sig.clear();
                 });
+                return sig;
             },
 
             _bind: function(el, event, handler) {
@@ -30,3 +31,5 @@ var Base = Class.extend(function(sc, sm) {
     ];
 
 });
+
+exports.Base = Base;
